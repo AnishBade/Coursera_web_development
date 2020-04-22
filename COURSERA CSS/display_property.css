@@ -1,0 +1,25 @@
+span{
+    background-color: rgb(136, 255, 0);
+ 
+    clear: left;
+}
+div{
+    background-color: rgb(69, 123, 173);
+    display:block;
+    float: left;
+    
+    overflow:scroll;
+}
+p{  
+    display:block;
+    background-color: cyan;
+    float:right;
+}
+#first{
+    background-color: rgb(226, 92, 92);
+    display:inline-table;
+    overflow:scroll;
+    visibility:visible;
+
+
+}
