@@ -1,0 +1,31 @@
+
+a{
+    color:lightgreen;
+    background-color: grey;
+    display:inline-block;
+    margin:20px;
+    float: left;
+    padding:10px;
+    width:20%;
+    text-align:center;
+    border:5px solid black;
+
+
+}
+
+a:hover{
+    background-color: blue;
+    color:yellow;
+    border:5px solid red;
+}
+
+
+a:focus{
+    background-color: blue;
+    color:yellow;
+    border:5px solid red;
+}
+
+a:active{
+    border:10px solid pink;
+}
