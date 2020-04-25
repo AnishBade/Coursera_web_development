@@ -1,6 +1,17 @@
+body{
+    background-color:rgb(158, 158, 158);
+}
 .open{
     display:block;
+    background-color: red ;
 }
 .close{
     display:none;
+    background-color: blue;
+}
+.bodyColor{
+    background-color:blueviolet;
+}
+.bodyInitial{
+    background-color: rgb(158, 158, 158);
 }

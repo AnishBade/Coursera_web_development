@@ -24,6 +24,8 @@ function openMe()
      */
   //or we can create a class to change the style from css
   op.className="open";
+  body=document.getElementById("body");
+  body.className="bodyInitial";
     
 }
 
@@ -36,8 +38,10 @@ function closeMe()
   clo.style.display="none"; */
    //or we can create a class to change the style from css
     clo.className="close";
-    
 
+    body=document.getElementById("body");
+    body.className="bodyColor";
+  
 }
 
 
