@@ -1,32 +1,68 @@
-html{
-    
-    font-family:bahnschrift light ;
-    
-    border:100px black solid;
-    border-top:30px black solid;
-}
-head{
+
+header{
     text-align:center;
+    padding:50px 2em 20px 2em;
+    background:linear-gradient( #b1d814,#61d6fa 70%); 
+  
+
 }
 h1{
-    background-color: rgba(255, 116, 52, 0.822);
+    font-size: 35px;
     color:rgb(109, 63, 236);
-    text-align:center;
-    font-size:5em;
     text-shadow: 1px 1px white, -1px -1px #444;
-    padding: 20px;
-    margin:10px;
-    border:20px;
+    padding:10px  30px;
+    margin:20px;
+    
+    
+}
+.welcome{
+    display:inline-block;
+    color:rgb(200, 36, 241);
+    background:linear-gradient(#e7eed5 20%, #56adc5 100%); 
+    margin-bottom:10px;
+    padding:5px 10px;
+
 }
 
 body {
-    background-color:rgb(106, 235, 106 );
+    background:linear-gradient(#61d6fa 50%, #b1d814 100%); 
     text-align:left;
  
     padding: 10mm;
     margin: 10mm;
+    margin-top: 2px;
 }
+#login_area{
+    padding:20px;
+    display:inline-block;
+    background:linear-gradient(#e7eed5 20%, #56adc5 100%); 
+    font-style:italic;
+    font-weight:bold;
+  
+    text-align:left;
 
+}
+#login{
+    color:rgb(65, 65, 253);
+    font-size:35px;
+}
+.login{
+    
+    display:inline-block;
+    margin:1px;
+
+  
+    color:rgb(124, 74, 136);
+    font-size:28px;
+    text-align:left;
+    
+}
+.name_box{
+    padding-left: 53px;
+}
+#channel{
+    text-align:center;
+}
 
 h2 {
     text-align:center;
@@ -42,28 +78,12 @@ h3{
 p1{
     font-size:10mm;
 }
-fieldset{
-    background-color:rgb(211, 71, 83);
-    font-style:italic;
-    font-weight:bold;
-    border:10px black solid;
-    text-align:center;
+
+.name{
+    display:inline;
 
 }
-p6{
-    
-    padding-left:15px;
-    padding-right:15px;
-    background-color:blue;
-    color:rgb(228, 220, 220);
-    font-size:1.7em;
-    text-align:left;
-    
-}
-.name{
-    position:relative;
-    left:30px;
-}
+
 #address{
     position:relative;
     left:25px;
