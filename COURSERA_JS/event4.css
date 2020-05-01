@@ -1,17 +1,19 @@
 body{
-    background-color:rgb(158, 158, 158);
+    background-color:rgb(63, 216, 243);
 }
 .open{
     display:block;
-    background-color: red ;
+    background-color: rgb(211, 24, 248) ;
 }
 .close{
-    display:none;
+    
+    /* display:none;*/
     background-color: blue;
 }
-.bodyColor{
-    background-color:blueviolet;
+.body_after_close{
+    color:white;
+    background-color:rgb(5, 1, 8);
 }
-.bodyInitial{
-    background-color: rgb(158, 158, 158);
+.body_after_open{
+    background-color: rgb(147, 247, 17);
 }

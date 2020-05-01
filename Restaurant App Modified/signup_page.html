@@ -3,41 +3,57 @@
     <head>
         <link rel=stylesheet href="style.css">
         <title>signup page</title>
-        <h1>CREATE YOUR NEW ACCOUNT</h1>
+        
     </head>
     <body>
-        <p>
+        <header>
+            <h1>CREATE YOUR NEW ACCOUNT</h1>
+        </header>
+        <section id="whole">
+        <section id="signup">
+        
             <form>
-                <fieldset>
-                    <div><p class="name"><label>Name: <input type=text></label></p></div>
+                
+                    <span>Name: </span> 
+                    <span id="signup_textbox"><input type=text></span>
                     
-                    <div><label>Email address: <input type="email"></inpu></label></div>
+                   <div><br>Email address: <input type="email" ></inpu></label></div>
+                    <br>
+                    <span>Address:</span>
+                    <span id="address"> <input type="text" ></span>
+                    <br>
+    
                     
-                    <div><p id="address"><label>Address: <input ></label></p></div>
-                    
-                    <p id="Age">
+                    <span>
+                    <br>
                     Age:
-                    <select>
-                        
-                        <option value="15-20">15-20</option>
+                    <span id="ages">                   
+                        <select>
+                        <option value="15-20">15-20</option> 
                         <option value="20-25" selected>20-25</option>
                         <option value="25-30">25-30</option>
                         <option value="above 30" >above 30</option>
                         
                         </select>
-                        </p>
+                    </span>
+ 
+                    
                         
-                </fieldset>
+                
             </form>
-        </p>
+            
+            <p id="signup_button"><a href="profile_page.html"><button>Create</button></a>
+        </section>
+        
+        
+        </p>    
+    </section>
      
      
 
-        <h2>
-            <p class="button"><a href="profile_page.html"><button>Create</button></a>
-        
-        </p>    </h2>
-        <script src="restaurant.js"></script>
+       
+           
+        <script src="restaurant1.js"></script>
         
     </body>
 </html>
