@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="validate_email_with_return.css">
+        <title>VAlidate email with return</title>
+    </head>
+    <body>
+        <form>
+            <label>Preferred email address:
+                    <input type="email" id="email_addr" name="email1" value = "me@me.com" required></label>
+          
+                <label>Repeat email address:
+                    <input type="email" id="email_repeat" name="email2" required onchange="return check()"></label>
+          
+            <input type = 'submit' value = "Confirm Emails!" onclick = "return check();">
+          </form>  
+          <script src="validate_email.js"></script>
+    </body>
+</html>
