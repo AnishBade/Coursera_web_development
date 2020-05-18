@@ -23,24 +23,26 @@
 
        <section id="login_area">
      
-         <form>
+         <form action="" method="post">
              <span >Name:</span>
-             <span id="name_box"><input type="text" id="name" placeholder="Enter your Full Name"></span>
+             <span id="name_box"><input type="text" id="name" placeholder="Enter your Full Name" name="customer_name"></span>
             
-             <div><label><br>Email address: <input type=email id="email" placeholder="               @gmail.com"></label></div>                      
+             <div><label><br>Phone Number: <input type="number" id="email" placeholder="               @gmail.com" name="email_address"></label></div>                      
            <br>
-           <a href="profile_page.html"><button id="loginButton" > Login</button>    </a>
-        
+           
            
         </form>   
+        <a href="profile_page.html"><button id="loginButton" > Login</button>    </a>
+        
        
      </section>
         </section>
         <br>
         <h3>
         Don't have an account?<br>
-        <a href="signup_page.html">Click here to create one</a><br>
+        <a href="signup_page.php">Click here to create one</a><br>
             </h3>
-            <script src="restaurant1.js"></script>
+            <script src="restaurant.js"></script>
     </body>
 </html>
+
