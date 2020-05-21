@@ -1,0 +1,14 @@
+html{
+    background-color: rgb(247, 245, 245);
+}
+li:first-child{
+    color:red;
+}
+li:nth-child(3){
+    color:rgb(44, 115, 248);
+}
+p:first-letter{
+    font-size: 30px;
+    text-decoration: rgb(165, 49, 248);
+    font-weight: 100;
+}

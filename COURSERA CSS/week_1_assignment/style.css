@@ -1,0 +1,30 @@
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: solid;
+    color:white;
+    
+
+}
+header{
+    background-color: #9797a5;
+}
+a{
+    color:black;
+    background-color: rgb(202, 198, 198);;
+}
+aside{
+    display:none;
+}
+h2{
+    text-decoration-style: solid;
+    font-weight:bold ;
+    text-transform: uppercase;
+    text-decoration: solid;
+    color:rgb(8, 8, 8);
+    
+
+}
+.right{
+    background-color: rgb(125, 125, 126);
+}

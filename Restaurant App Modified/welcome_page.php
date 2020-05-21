@@ -30,9 +30,9 @@
              <div><label><br>Phone Number: <input type="number" id="email" placeholder="               @gmail.com" name="email_address"></label></div>                      
            <br>
            
-           
-        </form>   
-        <a href="profile_page.html"><button id="loginButton" > Login</button>    </a>
+
+          </form>   
+        <div><input type="submit" id="loginButton" value="Login" href=></div>
         
        
      </section>

@@ -12,8 +12,14 @@ ul{
     text-align:left;
     padding:20px 40px;
 }
+li:first-child{
+    color:red;
+}
+li:nth-child(3){
+    color:green;
+}
 ol{
-    list-style-type:lower-roman ;
+    list-style-type:upper-roman ;
     border:10px solid black;
     text-align:left;
     padding:25px 40px;
