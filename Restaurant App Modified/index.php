@@ -1,3 +1,22 @@
+<?php
+
+$failure=false;
+if( isset($_POST['login'])){
+
+  if(isset($_POST['customer_name']) && isset($_POST['phone_number']) ){
+    if(strlen($_POST['customer_name'])>1 && strlen($_POST['phone_number'])>1){
+    header('Location:profile_page.html');
+    return;
+    }
+  
+  else{
+    $failure= '"Please Enter name and number!!!"';
+  }
+ }
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,21 +46,25 @@
              <span >Name:</span>
              <span id="name_box"><input type="text" id="name" placeholder="Enter your Full Name" name="customer_name"></span>
             
-             <div><label><br>Phone Number: <input type="number" id="email" placeholder="               @gmail.com" name="email_address"></label></div>                      
+             <div><label><br>Phone Number: <input type="number" id="phone_number" name="phone_number" ></label></div>                      
            <br>
-           
+           <div><input type="submit" id="loginButton" value="Login" name="login"></div>
+
+          
 
           </form>   
-        <div><input type="submit" id="loginButton" value="Login" href=></div>
-        
-       
+       <?php 
+       if($failure!=false){
+           echo "<p style=color:orange>$failure</p>";
+       }
+       ?>
      </section>
         </section>
         <br>
         <h3>
-        Don't have an account?<br>
-        <a href="signup_page.php">Click here to create one</a><br>
-            </h3>
+          Don't have an account?<br>
+          <a href="signup_page.php">Click here to create one</a><br>
+        </h3>
             <script src="restaurant.js"></script>
     </body>
 </html>

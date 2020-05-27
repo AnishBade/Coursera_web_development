@@ -23,4 +23,5 @@
                        <p>
                         <input type="submit" name="create" value="Create" id="signup_button" >
                         </p>
+                        <input type="submit" name="cancel" value="Cancel" >
                 </form>
